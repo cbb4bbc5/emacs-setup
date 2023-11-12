@@ -3,7 +3,7 @@
 (setq vc-make-backup-files t)          ; make backups file even when in version controlled dir
 (setq backup-directory-alist `(("." . "~/.cache/emacs/backups")) ) ; which directory to put backups file
 (setq vc-follow-symlinks t)                                   ; don't ask for confirmation when openin
-(setq auto-save-file-name-transforms '((".*" "~/.config/emacs/auto-save-list/" t)) ) ;transform backups file
+(setq auto-save-file-name-transforms '((".*" "~/.emacs.d/auto-save-list/" t)) ) ;transform backups file
 (setq coding-system-for-read 'utf-8 )   ; use utf-8 by default
 (setq coding-system-for-write 'utf-8 )
 (setq sentence-end-double-space nil)    ; sentence SHOULD end with only a point.
@@ -56,7 +56,7 @@
  '(custom-safe-themes
    '("603a831e0f2e466480cdc633ba37a0b1ae3c3e9a4e90183833bc4def3421a961" "257de69e8cc7ffaf40ed1ba4abbd8d4cb1db6526a3557a9526f321306b279355" "8721f7ee8cd0c2e56d23f757b44c39c249a58c60d33194fe546659dabc69eebd" "fe1c13d75398b1c8fd7fdd1241a55c286b86c3e4ce513c4292d01383de152cb7" default))
  '(org-agenda-files
-   '("/home/thea/University/semestr7/prw/concurrent_programming_notes.org" "/home/thea/Notes/org/todo.org" "/home/thea/Notes/guides/admin/arch/system/downgrading_packages.org" "/home/thea/Notes/guides/emacs/find_file_error.org"))
+   '("~/.emacs.d/README.org" "/home/thea/University/semestr7/prw/concurrent_programming_notes.org" "/home/thea/Notes/org/todo.org" "/home/thea/Notes/guides/admin/arch/system/downgrading_packages.org" "/home/thea/Notes/guides/emacs/find_file_error.org"))
  '(package-selected-packages
    '(py-autopep8 lsp-mssql exec-path-from-shell org-bullets all-the-icons-ivy syslog-mode all-the-icons-dired csv-mode tree-sitter-langs tree-sitter clang-format dired-icon haskell-snippets haskell-mode typescript-mode js2-mode js3-mode js-auto-beautify magit bash-completion ocamlformat utop dune merlin-company flycheck-ocaml yasnippet-snippets yasnippet validate-html rust-mode which-key openwith pdf-tools all-the-icons evil-vimish-fold ini-mode general counsel swiper-helm swiper ivy rainbow-delimiters rainbow-mode latex-extra company-math evil-tex beacon default-text-scale csharp-mode neotree markdown-preview-mode auctex-cluttex auctex-latexmk auctex python jedi format-all flymake-python-pyflakes flymake dashboard evil dracula-theme))
  '(pdf-view-use-imagemagick t))

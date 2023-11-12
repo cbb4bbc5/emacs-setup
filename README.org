@@ -1,0 +1,19 @@
+#+TITLE: Description of my Emacs configuration
+
+* Overview
+
+This repository contains handwritten configuration files for Emacs. Right now it
+only consists of ~init.el~ but I plan to make it modular in the future.
+
+* Usage
+
+** Simple download
+
+I use bare git repositories for projects like this but the most straightforward
+way to get my configuration is to use
+
+#+begin_src shell
+  git clone https://github.com/cbb4bbc5/emacs-setup.git ~/.emacs.d
+#+end_src
+
+** TODO Bare repository
